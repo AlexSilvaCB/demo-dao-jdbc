@@ -1,8 +1,9 @@
 package model.Dao;
 
-import model.entities.Department;
+import model.Dao.impl.SellerDaoJDBC;
 import model.entities.Seller;
 
+import java.sql.Connection;
 import java.util.List;
 
 public interface SellerDao {
